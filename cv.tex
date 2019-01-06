@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% James Baldwin CV
+%
+%
+% Document style copright: Copyright (c) 1988 by Michael DeCorte
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[margin, 10pt]{res} % Use the res.cls style, the font size can be changed to 11pt or 12pt here
+
+\usepackage{helvet} % Default font is the helvetica postscript font
+%\usepackage{newcent} % To change the default font to the new century schoolbook postscript font uncomment this line and comment the one above
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue, linktocpage}
+
+\setlength{\textwidth}{5.1in} % Text width of the document
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%----------------------------------------------------------------------------------------
+
+\moveleft.5\hoffset\centerline{\large\bf James Baldwin} % 
+ 
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip % Horizontal line after name; adjust line thickness by changing the '1pt'
+ 
+\moveleft.5\hoffset\centerline{Email: \href{mailto:james[at]jamesbaldwin.co.uk}{james[at]jamesbaldwin.co.uk}} 
+\moveleft.5\hoffset\centerline{Phone: [available on request]}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+\section{Sumaaaaaaaaaamary}
+
+{Cloud Engineer with over 3 years of hands-on experience supporting\\ production workloads on AWS, working across top-tier financial and\\ energy institutions throughout London.}
+ 
+%----------------------------------------------------------------------------------------
+%	RESUME SECTION
+%----------------------------------------------------------------------------------------
+ \begin{resume}
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+ 
+\section{Experience}
+
+{\sl \textbf{DevOps Engineer}} \hfill October 2018 - Present \\
+\textbf{British Petroleum, Container Platforms (PaaS)}\\
+Automation engineer focused on delivery and SRE for BP's PaaS platform, built using Red Hat OpenShift (Kubernetes/Docker) on top of AWS. Contract position in BP's Integrated Supply \& Trading division.
+\begin{itemize}
+\item Provisioning and automation with Ansible (Tower/AWX)
+\item Systems management with Red Hat Satellite
+\item Collaboration with Git \& Azure DevOps (VSTS)
+\item AMI build management through Packer
+\item Network-storage with Gluster
+\end{itemize} 
+
+{\sl \textbf{Technical Analyst}} \hfill July 2016 - October 2018, 2014-2015 \\
+\textbf{Goldman Sachs, Cloud Platforms} \\
+Development of a cloud orchestration platform to facilitate secure, provider-agnostic cloud compute \& IaaS services for the firm, integrating existing internal clouds and proprietary technologies. Migration of the platform from monolith to microservice design, and enabling PaaS adoption within the firm.
+\begin{itemize}
+\item Backend Java 8 (Spring Boot) \& C\# (Orleans) development, \newline RESTful architecture, NoSQL (MongoDB), AWS/GCP API’s
+\item Microservice design \& implementation (Spring Boot + Netflix stack). Twelve-factor app model development.
+\item Integrated automated post-deployment testing into our  deployment pipelines and brought numerous products up to mandated test levels
+\item Automating infrastructure provisioning with Terraform
+\item Owned multiple development projects, managing their full SDLC from design to implementation
+\item Externally trained in Agile methodologies
+\item Integrated a virtual HSM product within our security stack to replace legacy physical HSM’s used for BYOK in the cloud, resulting in significant cost savings
+\end{itemize} 
+
+{\sl \textbf{Technical Mentor}} \hfill 2015-2016 \\
+\textbf{Bournemouth University}
+\begin{itemize}
+\item Provided technical mentorship/knowledge sharing for BSc Computing students at the university, paid position.
+\item Frequently required to present content and facilitate team working exercises for small groups
+\item Board member of the Bournemouth University Computing Society
+\end{itemize}
+
+
+\pagebreak % makes the formatting look nicer...
+
+
+{\sl \textbf{Computer Technician \& Support}} \hfill 2011-2012 \\
+\textbf{Scanstation Computers Ltd}
+\begin{itemize}
+\item Responsible for diagnosing and repairing end-user hardware and software faults
+\item Configured Microsoft Deployment Toolkit to automate OS deployments
+\item Provided phone \& technical support for home and SME clients
+\end{itemize}
+ 
+{\sl \textbf{Computer Technician}} \hfill 2009-2011\\
+\textbf{Heaps of PCs}
+\begin{itemize} 
+\item Created a Microsoft Access database to track repairs and process invoices
+\end{itemize} 
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%---------------------------------------------------------------------------------------- 
+
+\section{Education}
+BSc Software Engineering (Hons), Bournemouth University: {\sl First} \hfill 2012-2016
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Industry \\Qualifications} 
+\begin{itemize} 
+\item Extreme Java - Advanced Topics (certificate: \href{http://bit.ly/1LvHDZm}{http://bit.ly/1LvHDZm})
+\item VMWare vSphere 6 Foundations
+\item Open University - Robotics \& the Meaning of Life (T184): {\sl 78\%}
+\item Cisco Introduction to Cybersecurity: {\sl 93\%}
+\item Cisco CCNA1 Network Fundamentals {\sl 91\% (lapsed)}
+\item Cisco CCNA2 Routing Protocols \& Concepts {\sl 88\% (lapsed)}
+\end{itemize} 
+ 
+\section{References}
+{\sl References redacted on public copy}
+
+%----------------------------------------------------------------------------------------
+
+\end{resume}
+\end{document}

@@ -1,0 +1,18 @@
+sudo: require
+dist: trusty
+language: bash
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get install -y texlive-base texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-fonts-extra
+
+script:
+  - bash build.sh ./ cv
+
+deploy:
+  provider: releases
+  api_key: $GITHUB_API_KEY
+  file: "cv.pdf"
+  skip_cleanup: true
+  on:
+    repo: jimmyjamesbaldwin/CV
